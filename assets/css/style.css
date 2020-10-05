@@ -21,6 +21,11 @@ h1 {
     color: #4aaaa5;
 }
 
+button.btn-lg.btn-primary {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
 /* FOOTER */
 
 .footertop {
