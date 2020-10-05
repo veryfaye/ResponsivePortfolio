@@ -2,3 +2,33 @@ body {
     background-image: url('../images/asanoha-400px.png');
     background-repeat: repeat;
 }
+
+/* NAV */
+.navbar-light div.navbar-brand {
+    background-color: #4aaaa5;
+    color: #eeeeee;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-light div.navbar-brand:hover {
+    color: #eeeeee;
+}
+
+
+/* MAIN */
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+/* FOOTER */
+
+.footertop {
+    background-color: #4aaaa5;
+    height: 5px;
+}
+
+.text-center.py-3 {
+    background-color: #666666;
+    color: #979a9c;
+}
