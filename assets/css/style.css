@@ -26,14 +26,14 @@ button.btn-lg.btn-primary {
     border-color: #4aaaa5;
 }
 
-/* FOOTER */
-
-.footertop {
-    background-color: #4aaaa5;
-    height: 5px;
+.bottommargin {
+    margin-bottom: 100px;
 }
 
+/* FOOTER */
+
 .text-center.py-3 {
+    border-top: 5px solid #4aaaa5;
     background-color: #666666;
     color: #979a9c;
 }
