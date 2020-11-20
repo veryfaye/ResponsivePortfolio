@@ -21,7 +21,7 @@ h1 {
     color: #4aaaa5;
 }
 
-button.btn-lg.btn-primary {
+button.btn-lg.btn-primary{
     background-color: #4aaaa5;
     border-color: #4aaaa5;
     border-radius: 1px;
@@ -30,6 +30,10 @@ button.btn-lg.btn-primary {
 button.btn-lg.btn-primary:active,  button.btn-lg.btn-primary:focus{
     background-color: #3d8d89;
     border-color: #3d8d89;
+}
+
+.fa{
+    color:#4aaaa5;
 }
 
 .bottommargin {
