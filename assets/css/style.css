@@ -20,7 +20,9 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     color: #4aaaa5;
 }
-
+h2, h4{
+    text-align: center;
+}
 button.btn-lg.btn-primary{
     background-color: #4aaaa5;
     border-color: #4aaaa5;

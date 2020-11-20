@@ -1,119 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Responsive Portfolio Portfolio Page</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Scripts for bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
-        <div class="navbar-brand"><strong>Amanda LeMoine</strong></div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Project Portfolio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-            </ul>
-        </div>
+      <div class="navbar-brand"><strong>Amanda LeMoine</strong></div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Project Portfolio <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Main body contianer -->
     <main class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="card mt-5 bottommargin">
-                    <div class="card-body">
-                        <h1><strong>Portfolio</strong></h1>
-                        <hr>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <img src="assets/images/BeerInLondon.jpg" alt="Beer in London with Naja" class="img-fluid p-1.5 mb-3"
-                                    alt="Placeholder Image">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="assets/images/DeckmansDinner.jpg" alt="Dinner at Deckmans in Ensenada" class="img-fluid p-1.5 mb-3"
-                                    alt="Placeholder Image">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <img src="assets/images/HermioneJumping.jpg" alt="Jumping Lesson on Hermione" class="img-fluid p-1.5 mb-3"
-                                    alt="Placeholder Image">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="assets/images/PotatoChipRock.jpg" alt="Hiked to Potato Chip Rock" class="img-fluid p-1.5 mb-3"
-                                    alt="Placeholder Image">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <img src="assets/images/ScubaDivingInPV.jpg" alt="Scuba Dove in Puerto Vallerta" class="img-fluid p-1.5 mb-3"
-                                    alt="Placeholder Image">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="assets/images/UCSDGroup.jpg" alt="Friends from UCSD" class="img-fluid p-1.5 mb-3"
-                                    alt="Placeholder Image">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <img src="assets/images/VegaAtTheBeach.jpg" alt="Vega at the Beach" class="img-fluid p-1.5 mb-3"
-                                    alt="Placeholder Image">
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="assets/images/WineryWalk.jpg" alt="Walk through a winery in Ensenada" class="img-fluid p-1.5 mb-3"
-                                    alt="Placeholder Image">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <img src="assets/images/Silks.jpg" alt="Silks" class="img-fluid p-1.5 mb-3"
-                                    alt="Placeholder Image">
-                            </div>
-                        </div>
-                    </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card mt-5 bottommargin">
+            <div class="card-body">
+              <h1><strong>Portfolio</strong></h1>
+              <hr />
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2>
+                    <a href="https://mbubel.github.io/projectwedding/">
+                      Wedding Scheduler Around Golden Hour
+                    </a>
+                  </h2>
                 </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <img
+                    src="assets/images/WeddingPlannerForm.png"
+                    alt="Wedding Planner Form Fields"
+                    class="img-fluid p-1.5 mb-3"
+                  />
+                  <h4>Wedding Scheduler on Page Load</h4>
+                </div>
+                <div class="col-lg-6">
+                  <img
+                    src="assets/images/WeddingScheduleCompleteForm.png"
+                    alt="Wedding Planner Form Submitted"
+                    class="img-fluid p-1.5 mb-3"
+                  />
+                  <h4>Wedding Scheduler After Form Fields Submitted</h4>
+                </div>
+              </div>
+              <div class="row">
+                <div>
+                  <img
+                    src="assets/images/WeddingScheduleTimeBlocks.png"
+                    alt="Time Blocks Populated by Wedding Planner"
+                    class="img-fluid p-1.5 mb-3"
+                  />
+                  <h4>Wedding Scheduler Time Blocks Populated</h4>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2>
+                    <a href="https://veryfaye.github.io/Weather-App/">
+                      Weather App
+                    </a>
+                  </h2>
+                </div>
+              </div>
+              <div class="row">
+                <div>
+                  <img
+                    src="assets/images/5DayWeatherForecast.png"
+                    alt="5 Day Weather Forecast"
+                    class="img-fluid p-1.5 mb-3"
+                  />
+                  <h4>Weather Forecast with Search History</h4>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2>
+                    <a href="https://veryfaye.github.io/MiniQuiz/">
+                      Mini Quiz
+                    </a>
+                  </h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                    <img
+                      src="assets/images/CodingQuizQuestion.png"
+                      alt="Quiz Questions"
+                      class="img-fluid p-1.5 mb-3"
+                    />
+                    <h4>Quiz Screen</h4>
+                </div>
+                <div class="col-lg-6">
+                    <img
+                        src="assets/images/CodingQuizHighScore.png"
+                        alt="Saved High Scores"
+                        class="img-fluid p-1.5 mb-3"
+                    />
+                    <h4>Score Screen</h4>
+                </div>
+              </div>
+              <hr />
+              <div class="row">
+                <div class="col-lg-12">
+                  <h2>
+                    <a href="https://veryfaye.github.io/AgendaSchedule/">
+                      Day Planner
+                    </a>
+                  </h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <img
+                    src="assets/images/DayPlanner.png"
+                    alt="Day Planner No Events"
+                    class="img-fluid p-1.5 mb-3"
+                  />
+                  <h4>Day Planner witout Events Saved</h4>
+                </div>
+                <div class="col-lg-6">
+                    <img
+                      src="assets/images/DayPlannerSaved.png"
+                      alt="Day Planner Saved Events"
+                      class="img-fluid p-1.5 mb-3"
+                    />
+                    <h4>Day Planner with Events Saved in Local Storage</h4>
+                  </div>
+              </div>
+
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </main>
 
     <!-- Footer -->
     <footer class="fixed-bottom">
-        <div class="text-center py-3">
-            © Copyright 2020 <a class="footer-icon" href="https://www.linkedin.com/in/alemoine2020/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a class="ml-1 footer-icon" href="https://github.com/veryfaye"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-        </div>
+      <div class="text-center py-3">
+        © Copyright 2020
+        <a
+          class="footer-icon"
+          href="https://www.linkedin.com/in/alemoine2020/"
+          target="_blank"
+          ><i class="fa fa-linkedin" aria-hidden="true"></i
+        ></a>
+        <a class="ml-1 footer-icon" href="https://github.com/veryfaye"
+          ><i class="fa fa-github-square" aria-hidden="true"></i
+        ></a>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
