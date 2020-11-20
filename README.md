@@ -1,8 +1,17 @@
 # ResponsivePortfolio
 
-## Description 
+![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white)
 
-This is a multi-page site that is designed mobile first to function as a portfolio for my projects made in the UCSD Coding Bootcamp Class. This site utilizes Bootstrap for a responsive design, with attional CSS for customizaiton. It currently is fairly basic, with an about me page, personal photos in the portfolio page, and a contact page.
+## Description
+
+As a student of the UCSD Coding Bootcamp this is my portfolio site to display my work, and provide a contact page. I created this site using HTML, CSS, and Bootstrap. Using Bootstraps grid system, I designed this page mobil first.
+
+There are three pages of this site:
+ * The Home page is an about me page, with a short description of myself.
+ * The Portfolio page has a collection of the assignments I am most proud of at this point of the course.
+ * The Contact page has links to my GitHub, LinkedIn, Resume, Email Address, and Phone Number.
 
 ## License
 
